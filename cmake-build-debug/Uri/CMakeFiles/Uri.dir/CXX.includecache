@@ -9,8 +9,16 @@
 ../Uri/include/Uri/Uri.h
 memory
 -
+string
+-
+vector
+-
 
 D:/PROJECTS/test/Excalibur/Uri/src/Uri.cpp
+string
+-
 Uri/Uri.h
+-
+vector
 -
 
