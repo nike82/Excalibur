@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECTS\test\Excalibur\build\CMakeFiles\cf9f8697da6c532e922081015fa68e51\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D7DC9E5E-C545-3FF9-8935-B4C537D4D333}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

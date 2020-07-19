@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libUri.a  CMakeFiles/Uri.dir/src/Uri.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libUri.a

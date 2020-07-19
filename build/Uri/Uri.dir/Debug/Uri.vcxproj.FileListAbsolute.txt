@@ -1,0 +1,2 @@
+D:\PROJECTS\test\Excalibur\build\Uri\Debug\Uri.pdb
+D:\PROJECTS\test\Excalibur\build\Uri\Uri.dir\Debug\Uri.pdb

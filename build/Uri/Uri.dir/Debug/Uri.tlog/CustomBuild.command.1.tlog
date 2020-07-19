@@ -1,0 +1,10 @@
+^D:\PROJECTS\TEST\EXCALIBUR\URI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECTS/test/Excalibur -BD:/PROJECTS/test/Excalibur/build --check-stamp-file D:/PROJECTS/test/Excalibur/build/Uri/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

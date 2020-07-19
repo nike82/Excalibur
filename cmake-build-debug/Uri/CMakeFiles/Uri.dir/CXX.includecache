@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Uri/include/Uri/Uri.h
+memory
+-
+
+D:/PROJECTS/test/Excalibur/Uri/src/Uri.cpp
+Uri/Uri.h
+-
+

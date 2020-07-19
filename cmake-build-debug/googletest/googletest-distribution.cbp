@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="googletest-distribution"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\googletest\;CMake Files\googletest\googletest\cmake\;CMake Files\Uri\;CMake Files\Uri\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="D:/PROJECTS/test/Excalibur/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest/include"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="D:/PROJECTS/test/Excalibur/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest/include"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="D:/PROJECTS/test/Excalibur/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest/include"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="D:/PROJECTS/test/Excalibur/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest/include"/>
+					<Add directory="D:/PROJECTS/test/Excalibur/googletest/googletest"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="c:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/PROJECTS/test/Excalibur/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/Uri/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Uri\"/>
+		</Unit>
+		<Unit filename="D:/PROJECTS/test/Excalibur/Uri/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Uri\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
