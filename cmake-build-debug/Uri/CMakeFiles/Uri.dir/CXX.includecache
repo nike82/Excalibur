@@ -13,8 +13,12 @@ string
 -
 vector
 -
+stdint.h
+-
 
 D:/PROJECTS/test/Excalibur/Uri/src/Uri.cpp
+inttypes.h
+-
 string
 -
 Uri/Uri.h

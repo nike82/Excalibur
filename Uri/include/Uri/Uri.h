@@ -12,6 +12,7 @@
 #include <memory>
 #include <string>
 #include <vector>
+#include <stdint.h>
 
 namespace Uri{
 
@@ -84,16 +85,39 @@ namespace Uri{
          */
         std::vector<std::string> GetPath() const;
 
+        /**
+         * This method returns an indications of whether or not the
+         * URI includes a port number
+         *
+         * @return
+         *
+         * URI includes a port number is returned.
+         */
+        bool HasPort() const ;
+
+        /**
+         * This method returns the port number element of the URI,
+         * if it has one.
+         *
+         * @return
+         * The port number element of the URI is returned.
+         *
+         * @note
+         * The returned port number is only valid if the
+         * HasPort method returns true.
+         */
+
+        uint16_t GetPort() const ;
         //Private properties
     private:
-        /*
+        /**
          * This is the type of structure that contains the private
          * properties of the instance. It's defined in the implementations
          * and declared here to ensure that it's scoped inside the class.
          */
         struct Impl;
 
-        /*
+        /**
          * This contains the private properties of the instance.
          */
         std::unique_ptr<struct Impl>impl_;
